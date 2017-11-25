@@ -1,0 +1,26 @@
+{
+  "name": "ramda-toolbox",
+  "version": "0.0.1",
+  "description": "A supplementary, standalone library for Ramda.js, similar to ramda-adjunct",
+  "main": "index.js",
+  "repository": "git@github.com:juliancoleman/ramda-toolbox",
+  "author": "Julian Coleman <julcol03@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lcov-parse": "^1.0.0",
+    "ramda": "^0.25.0",
+    "ramda-adjunct": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-subset": "^1.6.0",
+    "co-mocha": "^1.2.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1",
+    "pre-commit": "^1.2.2"
+  }
+}

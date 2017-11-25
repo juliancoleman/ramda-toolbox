@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "func-names": 0,
+    "global-require": 0,
+    "no-console": 0,
+    "comma-dangle": 0,
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "quote-props": [
+      "error",
+      "consistent"
+    ]
+  }
+}
