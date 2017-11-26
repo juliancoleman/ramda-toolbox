@@ -10,6 +10,7 @@ const btoi = require("./lib/map-bool-to-int");
 const coerceBoolean = require("./lib/coerce-boolean");
 const filterInt = require("./lib/filter-int");
 const fullJoin = require("./lib/full-join");
+const hexToRgb = require("./lib/hex-to-rgb");
 const indexByKey = require("./lib/index-by-key");
 const innerJoin = require("./lib/inner-join");
 const leftJoin = require("./lib/left-join");
@@ -29,6 +30,7 @@ module.exports = {
   coerceBoolean,
   filterInt,
   fullJoin,
+  hexToRgb,
   indexByKey,
   innerJoin,
   leftJoin,
