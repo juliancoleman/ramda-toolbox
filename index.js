@@ -8,13 +8,17 @@ const bitwiseXor = require("./lib/bitwise-xor");
 const bitwiseZFRightShift = require("./lib/bitwise-zero-fill-right-shift");
 const btoi = require("./lib/map-bool-to-int");
 const coerceBoolean = require("./lib/coerce-boolean");
+const filterByKey = require("./lib/filter-by-key");
 const filterInt = require("./lib/filter-int");
 const fullJoin = require("./lib/full-join");
+const getRange = require("./lib/get-range");
 const hexToRgb = require("./lib/hex-to-rgb");
 const indexByKey = require("./lib/index-by-key");
 const innerJoin = require("./lib/inner-join");
 const leftJoin = require("./lib/left-join");
+const localeCompare = require("./lib/locale-compare");
 const mask = require("./lib/mask");
+const rejectByKey = require("./lib/reject-by-key");
 const rightJoin = require("./lib/right-join");
 
 module.exports = {
@@ -28,12 +32,16 @@ module.exports = {
   bitwiseZFRightShift,
   btoi,
   coerceBoolean,
+  filterByKey,
   filterInt,
   fullJoin,
+  getRange,
   hexToRgb,
   indexByKey,
   innerJoin,
   leftJoin,
+  localeCompare,
   mask,
+  rejectByKey,
   rightJoin,
 };
