@@ -8,6 +8,7 @@ const bitwiseXor = require("./lib/bitwise-xor");
 const bitwiseZFRightShift = require("./lib/bitwise-zero-fill-right-shift");
 const btoi = require("./lib/map-bool-to-int");
 const coerceBoolean = require("./lib/coerce-boolean");
+const createMask = require("./lib/create-mask");
 const filterByKey = require("./lib/filter-by-key");
 const filterInt = require("./lib/filter-int");
 const fullJoin = require("./lib/full-join");
@@ -32,6 +33,7 @@ module.exports = {
   bitwiseZFRightShift,
   btoi,
   coerceBoolean,
+  createMask,
   filterByKey,
   filterInt,
   fullJoin,
