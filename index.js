@@ -7,8 +7,11 @@ const bitwiseSPRightShift = require("./lib/bitwise-right-shift");
 const bitwiseXor = require("./lib/bitwise-xor");
 const bitwiseZFRightShift = require("./lib/bitwise-zero-fill-right-shift");
 const btoi = require("./lib/map-bool-to-int");
+const clean = require("./lib/clean");
 const coerceBoolean = require("./lib/coerce-boolean");
+const coerceString = require("./lib/coerce-string");
 const createMask = require("./lib/create-mask");
+const escape = require("./lib/escape");
 const filterByKey = require("./lib/filter-by-key");
 const filterInt = require("./lib/filter-int");
 const fullJoin = require("./lib/full-join");
@@ -21,6 +24,8 @@ const localeCompare = require("./lib/locale-compare");
 const mask = require("./lib/mask");
 const rejectByKey = require("./lib/reject-by-key");
 const rightJoin = require("./lib/right-join");
+const splitLines = require("./lib/split-lines");
+const unescape = require("./lib/unescape");
 
 module.exports = {
   assocByKey,
@@ -32,8 +37,11 @@ module.exports = {
   bitwiseXor,
   bitwiseZFRightShift,
   btoi,
+  clean,
   coerceBoolean,
+  coerceString,
   createMask,
+  escape,
   filterByKey,
   filterInt,
   fullJoin,
@@ -46,4 +54,6 @@ module.exports = {
   mask,
   rejectByKey,
   rightJoin,
+  splitLines,
+  unescape,
 };
