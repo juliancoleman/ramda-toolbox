@@ -1,1 +1,1 @@
-module.exports = new RegExp(/[¢£¥€©®<>\"&\']/, "g");
+module.exports = new RegExp(/[¢£¥€©®<>"&']/, "g");
