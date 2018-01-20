@@ -27,6 +27,7 @@ const leftJoin = require("./lib/left-join");
 const localeCompare = require("./lib/locale-compare");
 const mask = require("./lib/mask");
 const normalize = require("./lib/normalize");
+const outerJoin = require("./lib/outer-join");
 const pascalize = require("./lib/pascalize");
 const rejectByKey = require("./lib/reject-by-key");
 const rightJoin = require("./lib/right-join");
@@ -65,6 +66,7 @@ module.exports = {
   localeCompare,
   mask,
   normalize,
+  outerJoin,
   pascalize,
   rejectByKey,
   rightJoin,
